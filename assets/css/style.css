@@ -1,8 +1,36 @@
+@font-face {
+  font-family: 'Heebo' ;
+  src: url(../font/Heebo-VariableFont_wght.ttf);
+}
+
 body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     background-color: white;
+    font-family: 'Heebo';
+    h1{
+      font-size: 82px;
+
+    }
+    h2{
+      font-size: 46px;
+      font-weight: normal;
+  
+
+    }
+    h3{
+
+
+    }
+    
+}
+
+.centro-container{
+  display: flex;
+  flex-direction: row;
+  margin: 216px;
+
 }
 
 .linha-vertical{
@@ -11,4 +39,107 @@ body{
   height: 15px;               
   margin: 0 10px;             
   vertical-align: middle;     
+}
+
+#inicio{
+    .container-home{
+      display: flex;
+      flex-direction: row;
+      padding: 0px;
+
+
+    }
+
+    .foto-cara{
+      padding-bottom: 184px;
+      padding-left: 200px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+    
+
+
+
+    }
+
+    .texto-h1{
+      align-items: center;
+
+
+    }
+
+    .tamanho-cara{
+      width: 462px;
+      weight: 462px;
+      box-shadow: -10px 30px 0px 0px #EDF7FA;
+      border-radius: 50%;
+
+    }
+
+    .texto-padrao{
+      font-size: 28px;
+
+    }
+
+    .botao1{
+      margin-top: 20px;
+      margin-bottom: 80px;
+      text-decoration: none;
+      background-color: #FF6464;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-size: 35px;
+      font-weight: bold;
+      padding: 18px;
+
+    }
+
+    .botao1:hover{
+      cursor: pointer;
+
+
+    }
+
+}
+
+
+#formacoes{
+
+  .container-formacoes{
+    background-color: #EDF7FA;
+    padding: 60px 0px;
+    
+    
+
+  }
+
+  .container-flex{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .esquerda{
+    margin: 40px;
+
+  }
+
+
+  .direita{
+    margin: 40px;
+
+  }
+
+
+  .fundo-branco{
+    background-color: white;
+    border-radius: 4px;
+    padding: 100px 0px;
+
+  }
+
 }

@@ -19,29 +19,34 @@
 
  <!-- ## Inico do cabeçalho# -->
 <body> 
-    <section id="inicio">
         <header>
-             <!-- @@ Acho que tem que fazer umas divs a mais, mas nao tenho crtz -->
-            <div>
-                <div>
-                    <h1>
-                        Hi, I am John,<br>
-                        Creative Technologist
-                    </h1>
-
-                    <p>
-                        Resumo: Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    </p>
-                        <div>
-                            <img src="assets/images/" alt="foto-pessoa">
+            <section id="inicio">
+                <!-- @@ Acho que tem que fazer umas divs a mais, mas nao tenho crtz -->
+                <div class="centro-container">
+                    <div class="container-home">
+                        <div class="texto-h1">
+                            <h1>
+                                Hi, I am John,<br>
+                                Creative Technologist
+                            </h1>
+                            <p class="texto-padrao">
+                                Resumo: Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                            <button class="botao1">Download Resume</button>
+                        </div>
+                    
+                        <div class="foto-cara">
+                            <img class="tamanho-cara" src="assets/imagens/cara2.png.png" alt="foto-john">
 
                         </div>
+
+
+
+                            
+
+                    </div>
                 </div>
-
-
-                <button>Download Resume</button>
-
-            </div>
+            </section>
 
         </header>
 
@@ -51,34 +56,42 @@
 
 
     <!-- ## incio da parte principal -->
-    <section id="meio">
         <main>
-            <div>
-                <h2>
-                Formações
-                </h2>
-                <!-- @@ aqui com toda crtz vai precisar de mais divs durante o css, entao quando formos mexer atencao a essa parte -->
-                <div>
-                    <h3>Making a design system from scratch</h3>
-                    
-                    <p>12 Feb 2020 <span class="linha-vertical"></span> Design, Pattern</p>
-                   
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <section id="formacoes">
+                <div class="container-formacoes">
+                        <h2>
+                        Formações
+                        </h2>
+                        <!-- @@ aqui com toda crtz vai precisar de mais divs durante o css, entao quando formos mexer atencao a essa parte -->
+                        <div class="container-flex">
+                            <div class="esquerda">
+                                <div class="fundo-branco">
+                                    <h3>Making a design system from scratch</h3>
+                                    
+                                    <p>12 Feb 2020 <span class="linha-vertical"></span> Design, Pattern</p>
+                                
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                </div>
 
+                            </div>
+                        
+                        
+
+                            <div class="direita">
+                                <div class="fundo-branco">
+                                    <h3>Creating pixel perfect icons in Figma</h3>
+
+                                    <p>12 Feb 2020 <span class="linha-vertical"></span> Figma, Icon Design</p>
+
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                </div>
+                            </div>
+                    </div>
 
                 </div>
-                   
+                
+            </section>
 
-                <div>
-                    <h3>Creating pixel perfect icons in Figma</h3>
-
-                    <p>12 Feb 2020 <span class="linha-vertical"></span> Figma, Icon Design</p>
-
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-
-                </div>
-
-            </div>
             <!-- ## Parte das experiencias do figma -->
             <div>
                 <h2>
@@ -88,7 +101,7 @@
                 <!-- @@ aqui talvez seja necessario mais divs -->
                 <div>
                     <div>
-                        <img src="assets/images/" alt="design dashboard">
+                        <img src="assets/imagens/Dashboard" alt="design dashboard">
                         <h3>Designing Dashboards</h3>
 
                         <button>2020</button>
@@ -99,7 +112,7 @@
                     </div>
 
                     <div>
-                        <img src="assets/images/" alt="retrato vibrante">
+                        <img src="assets/imagens/mulhr.png" alt="retrato vibrante">
                         <h3>Vibrant Portraits of 2020</h3>
 
                         <button>2018</button>
@@ -124,7 +137,7 @@
 
                 <div>
                     <div>
-                        <img src="assets/images/" alt="icone front-end">
+                        <img src="assets/imagens/frontend" alt="icone front-end">
 
                         <!-- && No css deve colocar uma class de fonte maior  que o "<h2>" nesse "<p>" abaixo, nao utilizar "<h2>" -->
                         <p>Front-End</p> 
@@ -133,7 +146,7 @@
                     </div>
 
                     <div>
-                        <img src="assets/images/" alt="icone back-end">
+                        <img src="assets/imagens/backend" alt="icone back-end">
 
                         <!-- && mesma situacao da class acima -->
                         <p>Back-End</p>
@@ -157,10 +170,10 @@
     <section id="final">
         <footer>
             <div>
-                <a href="https://www.facebook.com/?locale=pt_BR"><img src="assets/images/" alt="icone facebook"></a>
-                <a href="https://www.instagram.com/"><img src="assets/images/" alt="icone instagram"></a>
-                <a href="https://x.com/?lang=pt"><img src="assets/images/" alt="icone twitter"></a>
-                <a href="https://br.linkedin.com/"><img src="assets/images/" alt="icone linkedin"></a>
+                <a href="https://www.facebook.com/?locale=pt_BR"><img src="assets/imagens/fb.png" alt="icone facebook"></a>
+                <a href="https://www.instagram.com/"><img src="assets/imagens/insta.png" alt="icone instagram"></a>
+                <a href="https://x.com/?lang=pt"><img src="assets/imagens/Group.png" alt="icone twitter"></a>
+                <a href="https://br.linkedin.com/"><img src="assets/imagens/Linkedin.png" alt="icone linkedin"></a>
 
                 <!-- && criar class para fonte pequena -->
                 <p>Copyright ©2020 All rights reserved </p>
