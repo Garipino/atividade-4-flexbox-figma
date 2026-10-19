@@ -9,97 +9,82 @@ body{
     box-sizing: border-box;
     background-color: white;
     font-family: 'Heebo';
-    h1{
-      font-size: 82px;
-
-    }
-    h2{
-      font-size: 46px;
-      font-weight: normal;
-  
-
-    }
-    h3{
-
-
-    }
     
-}
-
-.centro-container{
-  display: flex;
-  flex-direction: row;
-  margin: 216px;
-
 }
 
 .linha-vertical{
-  display: inline-block;
-  border-left: 1px solid #000;
-  height: 15px;               
-  margin: 0 10px;             
-  vertical-align: middle;     
+    display: inline-block;
+    border-left: 1px solid #000;
+    height: 15px;               
+    margin: 0 10px;             
+    vertical-align: middle;     
 }
 
 #inicio{
+    color: #21243D;
     .container-home{
-      display: flex;
-      flex-direction: row;
-      padding: 0px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 150px;
+        padding-left: 200px;
 
-
+        h1{
+          font-size: 74px;
+          line-height: 1.3;
+        }
+        h2{
+          font-size: 46px;
+          font-weight: normal;
+          line-height: 1.3;
+        }
     }
 
-    .foto-cara{
-      padding-bottom: 184px;
-      padding-left: 200px;
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-    
+      .foto-cara{
+        padding-bottom: 184px;
+        padding-left: 200px;
+        display: flex;
+        padding-top: 42px;
+      
+      }
+
+      .texto-h1{
+        align-items: center;
 
 
+      }
 
-    }
+      .tamanho-cara{
+        width: 420px;
+        height: 420px;
+        box-shadow: -10px 30px 0px 0px #EDF7FA;
+        border-radius: 50%;
 
-    .texto-h1{
-      align-items: center;
+      }
 
+      .texto-padrao{
+        font-size: 28px;
+        color: #21243D;
+      }
 
-    }
+      .botao1{
+        margin-top: 20px;
+        margin-bottom: 80px;
+        text-decoration: none;
+        background-color: #FF6464;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        padding: 18px;
 
-    .tamanho-cara{
-      width: 462px;
-      weight: 462px;
-      box-shadow: -10px 30px 0px 0px #EDF7FA;
-      border-radius: 50%;
+      }
 
-    }
-
-    .texto-padrao{
-      font-size: 28px;
-
-    }
-
-    .botao1{
-      margin-top: 20px;
-      margin-bottom: 80px;
-      text-decoration: none;
-      background-color: #FF6464;
-      border: none;
-      border-radius: 4px;
-      color: white;
-      font-size: 35px;
-      font-weight: bold;
-      padding: 18px;
-
-    }
-
-    .botao1:hover{
-      cursor: pointer;
+      .botao1:hover{
+        cursor: pointer;
 
 
-    }
+      }
 
 }
 
@@ -107,32 +92,52 @@ body{
 #formacoes{
 
   .container-formacoes{
-    background-color: #EDF7FA;
-    padding: 60px 0px;
-    
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF7FA;  
+    padding-bottom: 50px;
+    h2{
+      font-weight: 400;
+      padding-left: 200px;
+      font-size: 36px;
+    }
+  }
     
 
   }
 
   .container-flex{
-    margin-top: 0px;
+    margin-top: 0px; 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  
+    gap: 50px;
+   
+  }
+
+  .esquerda, .direita{
+    background-color: white;
+    padding-bottom: 30px;
+    padding-left: 30px; 
+    padding-right: 30px;
+    flex: 1;
+    h3{
+      font-size: 50px;
+    }
+    font-size: 26px;
+    border-radius: 10px;
   }
 
   .esquerda{
-    margin: 40px;
-
+    margin-left: 200px;
   }
-
 
   .direita{
-    margin: 40px;
-
+    margin-right: 200px;
   }
+
+  
 
 
   .fundo-branco{
@@ -141,5 +146,63 @@ body{
     padding: 100px 0px;
 
   }
+  #exp{
+    margin-left: 200px;
 
+  }
+  .dash, .woman {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 24px 0;
+    font-family: sans-serif; 
+    
 }
+
+
+.imagem2 {
+    width: 482px;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Títulos principais */
+.texto-ex h3 {
+    margin: 0 0 16px 0;
+    font-size: 50px;
+    color: #21243D;
+}
+
+
+.texto-ex p:nth-of-type(1) {
+    display: inline-block;
+    background: #14142B;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin: 0 15px 16px 0;
+    font-size: 26px;
+}
+
+
+.texto-ex p:nth-of-type(2) {
+    display: inline-block;
+    color: #8692A6;
+    margin: 0 0 16px 0;
+    font-size: 42px;
+}
+
+
+.texto-ex p:nth-of-type(3) {
+    padding-right: 400px;
+    color: #21243D;
+    line-height: 1.5;
+    font-size: 26px;
+}
+
+
+.woman hr {
+    display: none; 
+}
+  
