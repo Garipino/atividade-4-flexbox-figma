@@ -97,8 +97,8 @@
 
                 <div class="container-experiencias">
                     <div class="experiencias">
-                        <h2>
-                            Experiencias
+                        <h2 class="alinhar-h2">
+                        Experiencias
                         </h2>
 
                         <!-- @@ aqui talvez seja necessario mais divs -->
@@ -136,33 +136,35 @@
             </section>
 
             <!-- ## parte das skills -->
-            <div>
-                <h2>Skills</h2>
+            <section id="skills">
+                <div class="container-skills">
+                    <h3>Skills</h3>
 
-                <div>
-                    <div>
-                        <img src="assets/imagens/frontend" alt="icone front-end">
+                    <div class="container-flex">
+                        <div class="esquerda">
+                            <img class="tamanho-imgSkills" src="assets/imagens/frontend.png" alt="icone front-end">
+                            
+                            <!-- && No css deve colocar uma class de fonte maior  que o "<h2>" nesse "<p>" abaixo, nao utilizar "<h2>" -->
+                            <h2>Front-End</h2> 
+                            <p class="alinharTextSkills">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
-                        <!-- && No css deve colocar uma class de fonte maior  que o "<h2>" nesse "<p>" abaixo, nao utilizar "<h2>" -->
-                        <p>Front-End</p> 
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit<br> officia consequat duis enim velit mollit. Exercitation veniam consequat sunt<br> nostrud amet.</p>
+                        </div>
 
-                    </div>
+                        <div class="direita">
+                            <img class="tamanho-imgSkills" src="assets/imagens/backend.png" alt="icone back-end">
 
-                    <div>
-                        <img src="assets/imagens/backend" alt="icone back-end">
-
-                        <!-- && mesma situacao da class acima -->
-                        <p>Back-End</p>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <!-- && mesma situacao da class acima -->
+                            <h2>Back-End</h2>
+                            <p class="alinharTextSkills">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
 
+
+                        </div>
 
                     </div>
 
                 </div>
-
-            </div>
+            </section>
 
         </main>
 
@@ -171,17 +173,25 @@
 
 
     <!-- ## parte final do site -->
-    <section id="final">
+    <section id="footer">
         <footer>
-            <div>
-                <a href="https://www.facebook.com/?locale=pt_BR"><img src="assets/imagens/fb.png" alt="icone facebook"></a>
-                <a href="https://www.instagram.com/"><img src="assets/imagens/insta.png" alt="icone instagram"></a>
-                <a href="https://x.com/?lang=pt"><img src="assets/imagens/Group.png" alt="icone twitter"></a>
-                <a href="https://br.linkedin.com/"><img src="assets/imagens/Linkedin.png" alt="icone linkedin"></a>
+            <div class="container-footer">
+                <div class="centroFooter">
+                    <div class="rowLogos">
+                        <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><img class="tamanho-imgFooter" src="assets/imagens/fb.png" alt="icone facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="tamanho-imgFooter" src="assets/imagens/insta.png" alt="icone instagram"></a>
+                        <a href="https://x.com/?lang=pt" target="_blank"><img class="tamanho-imgFooter" src="assets/imagens/Group.png" alt="icone twitter"></a>
+                        <a href="https://br.linkedin.com/" target="_blank"><img class="tamanho-imgFooter" src="assets/imagens/Linkedin.png" alt="icone linkedin"></a>
 
-                <!-- && criar class para fonte pequena -->
-                <p>Copyright ©2020 All rights reserved </p>
+                    
 
+                    </div>
+                    
+                    <!-- && criar class para fonte pequena -->
+                    <br>
+                    <h1>Copyright ©2020 All rights reserved </h1>
+
+                </div>
             </div>
 
         </footer>

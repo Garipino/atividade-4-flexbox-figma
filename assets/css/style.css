@@ -206,3 +206,96 @@ body{
     display: none; 
 }
   
+#exp{
+  h2{
+    font-weight: 400;
+    padding-left: 200px;
+    font-size: 36px;
+  }
+  
+  .alinhar-h2{
+    padding: 0px 0px;
+
+  }
+}
+
+#skills{
+    h3{
+    font-weight: 400;
+    padding-left: 200px;
+    font-size: 36px;
+  }
+
+  h2{
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .container-skills{
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF7FA;  
+    padding-bottom: 50px;
+
+  }
+
+  .tamanho-imgSkills{
+    display: block;
+    margin: 0 auto;
+    height: 282px;
+    width: 282px;
+
+
+  }
+
+  .centralizar-skills{
+    display: block;
+    margin: 0 auto;
+
+  }
+
+  .alinharTextSkills{
+    text-align: center;
+
+  }
+
+  
+
+}
+
+#footer{
+  .container-footer{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  h1{
+    font-weight: 400;
+    font-size: 21px;
+
+  }
+
+  .centroFooter{
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .tamanho-imgFooter{
+    width: 60px;
+    height: 60px;
+
+  }
+
+  .rowLogos{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+  }
+
+
+}
